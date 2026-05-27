@@ -27,8 +27,8 @@ export default function Contact() {
         <div className="flex justify-center gap-3 flex-wrap">
           {[
             { label: 'GitHub',   href: data.github },
-            { label: 'LinkedIn', href: data.linkedin },
-            { label: 'Email',    href: `mailto:${data.email}` },
+            { label: 'LinkedIn', href: 'www.linkedin.com/in/axell-baez-aba559258' },
+            { label: 'Email',    href: `axellbaez66@gmail.com` },
           ].map(s => (
             <motion.a
               key={s.label}

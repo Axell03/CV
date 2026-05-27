@@ -7,7 +7,7 @@ export const data = {
   location: 'Santo Domingo, RD',
   github: 'https://github.com/Axell03',
   linkedin: 'www.linkedin.com/in/axell-baez-aba559258',
-  email: 'axellbaez@gmail.com', 
+  email: 'axellbaez66@gmail.com', 
 
   stats: [
     { value: '2+',   label: 'Años de experiencia profesional' },
