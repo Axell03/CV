@@ -26,6 +26,34 @@ function HdcoVisual() {
   )
 }
 
+function MovirVisual() {
+  return (
+    <div style={{ width: '100%', height: '100%', background: 'linear-gradient(135deg,#0f0800,#1a1000,#0f0800)', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 40% 40%,rgba(249,115,22,.14) 0%,transparent 55%),radial-gradient(circle at 70% 65%,rgba(251,191,36,.08) 0%,transparent 55%)' }} />
+      <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
+        <div className="display-title" style={{ fontSize: 38, color: '#fff', letterSpacing: -1 }}>
+          MOVI<em style={{ color: '#f97316', fontStyle: 'normal' }}>-R</em>
+        </div>
+        <div style={{ fontFamily: 'var(--font-mono)', fontSize: 9, letterSpacing: 3, color: 'rgba(249,115,22,0.5)', textTransform: 'uppercase', marginTop: 4 }}>Tech & Solutions</div>
+      </div>
+    </div>
+  )
+}
+
+function MoviclubVisual() {
+  return (
+    <div style={{ width: '100%', height: '100%', background: 'linear-gradient(135deg,#00080f,#00101a,#00080f)', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 35% 45%,rgba(14,165,233,.15) 0%,transparent 55%),radial-gradient(circle at 70% 60%,rgba(56,189,248,.08) 0%,transparent 55%)' }} />
+      <div style={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
+        <div className="display-title" style={{ fontSize: 36, color: '#fff', letterSpacing: -1 }}>
+          Movi<em style={{ color: '#0ea5e9', fontStyle: 'normal' }}>Club</em>
+        </div>
+        <div style={{ fontFamily: 'var(--font-mono)', fontSize: 9, letterSpacing: 3, color: 'rgba(14,165,233,0.5)', textTransform: 'uppercase', marginTop: 4 }}>Transport Platform</div>
+      </div>
+    </div>
+  )
+}
+
 function SoonVisual({ icon }: { icon: string }) {
   return (
     <div style={{ width: '100%', height: '100%', background: '#141420', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -40,6 +68,8 @@ function SoonVisual({ icon }: { icon: string }) {
 const visuals: Record<string, React.ReactNode> = {
   'Optic-d':       <OpticdVisual />,
   'HDCO Group':    <HdcoVisual />,
+  'Movi-R':        <MovirVisual />,
+  'Movi-Club':     <MoviclubVisual />,
   'Proyecto Cloud': <SoonVisual icon="△" />,
 }
 

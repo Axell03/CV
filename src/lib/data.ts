@@ -59,7 +59,7 @@ export const data = {
       status: 'live' as const,
       statusLabel: 'Live',
       url: 'https://www.optic-d.com/home',
-      tech: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'Cloudflare'],
+      tech: ['Next.js', 'Node.js', 'PostgreSQL', 'TailwindCSS', 'Vercel', 'Stripe', 'Godaddy'],
       accentColor: '#7b6ef6',
     },
     {
@@ -70,6 +70,24 @@ export const data = {
       url: null,
       tech: ['React', 'Node.js', 'PostgreSQL', 'TailwindCSS', 'PM2'],
       accentColor: '#1db87a',
+    },
+    {
+      name: 'Movi-R',
+      description: 'Sitio web corporativo para empresa de tecnología estratégica. Instalación, configuración completa, gestión de plugins, administración activa de accesos y actualización de políticas en producción.',
+      status: 'live' as const,
+      statusLabel: 'Live · Administrado',
+      url: 'https://movi-r.com/',
+      tech: ['WordPress', 'cPanel', 'GoDaddy', 'Cloudflare'],
+      accentColor: '#f97316',
+    },
+    {
+      name: 'Movi-Club',
+      description: 'Plataforma todo en uno para empresas de red de transporte y taxi. Solución tecnológica completa: instalación, configuración, plugins y administración activa en producción.',
+      status: 'live' as const,
+      statusLabel: 'Live · Administrado',
+      url: 'https://movi-club.com',
+      tech: ['WordPress', 'cPanel', 'GoDaddy', 'Cloudflare'],
+      accentColor: '#0ea5e9',
     },
     {
       name: 'Proyecto Cloud',
