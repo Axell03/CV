@@ -16,8 +16,9 @@ export default function Contact() {
         </p>
 
         <motion.a
-          href={`https://github.com/Axell03`}
-          target="_blank" rel="noopener noreferrer"
+          href={data.github}
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ opacity: 0.85, y: -3 }}
           style={{ display: 'inline-flex', alignItems: 'center', gap: 10, background: '#7b6ef6', color: '#fff', fontFamily: 'var(--font-mono)', fontSize: 13, letterSpacing: '1px', padding: '16px 36px', borderRadius: 9, marginBottom: 40 }}
         >
@@ -27,8 +28,8 @@ export default function Contact() {
         <div className="flex justify-center gap-3 flex-wrap">
           {[
             { label: 'GitHub',   href: data.github },
-            { label: 'LinkedIn', href: 'www.linkedin.com/in/axell-baez-aba559258' },
-            { label: 'Email',    href: `axellbaez66@gmail.com` },
+            { label: 'LinkedIn', href: `https://${data.linkedin}` },
+            { label: 'Email',    href: `mailto:${data.email}` },
           ].map(s => (
             <motion.a
               key={s.label}
