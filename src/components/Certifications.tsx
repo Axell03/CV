@@ -26,9 +26,9 @@ export default function Certifications() {
               <div>
                 <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 4, lineHeight: 1.35, color: '#f4f0e8' }}>{cert.name}</div>
                 <div style={{ fontFamily: 'var(--font-mono)', fontSize: 10, color: 'rgba(244,240,232,0.45)' }}>{cert.issuer}</div>
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 9, letterSpacing: '1.5px', textTransform: 'uppercase', marginTop: 7, display: 'inline-flex', alignItems: 'center', gap: 5, color: cert.status === 'done' ? '#1db87a' : 'rgba(123,110,246,0.7)' }}>
+                <div style={{ fontFamily: 'var(--font-mono)', fontSize: 9, letterSpacing: '1.5px', textTransform: 'uppercase', marginTop: 7, display: 'inline-flex', alignItems: 'center', gap: 5, color: (cert.status as string) === 'done' ? '#1db87a' : 'rgba(123,110,246,0.7)' }}>
                   <motion.span
-                    style={{ width: 5, height: 5, borderRadius: '50%', background: cert.status === 'done' ? '#1db87a' : 'rgba(123,110,246,0.7)', display: 'block' }}
+                    style={{ width: 5, height: 5, borderRadius: '50%', background: (cert.status as string) === 'done' ? '#1db87a' : 'rgba(123,110,246,0.7)', display: 'block' }}
                     animate={cert.status === 'wip' ? { opacity: [1, 0.2, 1] } : {}}
                     transition={{ duration: 2, repeat: Infinity }}
                   />
