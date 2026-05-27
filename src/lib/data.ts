@@ -6,8 +6,8 @@ export const data = {
     'Desarrollador Full Stack especializado en aplicaciones empresariales, automatización e infraestructura web. Experiencia real con React, Node.js, PostgreSQL, Docker, CI/CD y despliegues productivos. En ruta activa hacia Cloud Engineering con Azure.',
   location: 'Santo Domingo, RD',
   github: 'https://github.com/Axell03',
-  linkedin: 'YOUR_LINKEDIN_URL', // TODO: replace
-  email: 'YOUR_EMAIL',           // TODO: replace
+  linkedin: 'www.linkedin.com/in/axell-baez-aba559258',
+  email: 'axellbaez@gmail.com', 
 
   stats: [
     { value: '2+',   label: 'Años de experiencia profesional' },
