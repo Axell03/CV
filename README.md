@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Axell Baez — Portfolio
 
 Portfolio personal construido con **Next.js 14**, **Framer Motion** y **TailwindCSS**.
@@ -58,3 +59,6 @@ src/
 └── lib/
     └── data.ts        # ← TODOS tus datos aquí
 ```
+=======
+# CV
+>>>>>>> 35d104d32a5ac7a069a193901f2d24cefc867e54
